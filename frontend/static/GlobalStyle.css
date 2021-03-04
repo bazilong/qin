@@ -1,0 +1,153 @@
+* {
+  font-family: "Montserrat", "Avenir Next","Avenir","Segoe UI","Hiragino Sans GB","Hiragino Sans GB W3","PingFang SC","Microsoft Yahei","SimHei",sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0 !important;
+  font-size: 14px;
+}
+
+.zZindex {
+  z-index: 999999;
+}
+
+.body-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.top{
+  height:36px;
+  width:36px;
+  position :relative;
+  margin-bottom:-36px;
+}
+img {
+  width:100%;
+}
+.list-title-containner {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 15px;
+  margin: 20px 0;
+  border-left: 8px solid #00a0e9;
+}
+a {
+  text-decoration: none;
+}
+.router-link-active {
+    text-decoration: none;
+}
+.block-need-center {
+  text-align: center;
+}
+.block-need-right {
+  text-align: right;
+}
+.managerights-add-button {
+  margin-top: 13px;
+}
+.manage-q-h3 {
+  margin-left: 20px;
+}
+.manage-q-msg {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.manage-q-remove {
+  float: right;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*card*/
+.card-container {
+  background-color: #fff;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.card-header {
+  padding: 18px 55px;
+}
+.card-title {
+  display: inline;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+.card-header-description {
+  display: inline;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+.card-body {
+  width: 88%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.text-button {
+  font-size: 16px;
+}
+
+.card-head-with-color {
+  background-color: #F5F9FB;
+  border-radius: 5px;
+}
+.content-in-card {
+  display: inline-block;
+  margin: 14px 0;
+  line-height: 23px;
+}
+.card-show-details-button {
+  font-size:30px;
+  float: right;
+  color: rgb(141, 137, 137);
+  cursor: pointer;
+}
+hr{
+  height: 1px;
+  border: none;
+  border-top: 1px solid rgba(141, 137, 137,0.2);
+}
+.helpDownloadButton {
+  color: rgb(54, 52, 52);
+  font-size: 14px;
+}
+.helpDownloadButton:hover, .helpDownloadButton:active{
+  color: #00a1e9;
+}
+@media (max-width:991px) {
+  .body-container {
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  el-button {
+    font-size: 14px;
+  }
+  .card-header {
+    padding: 18px 20px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-header-description {
+    margin: 0;
+    font-size: 13px;
+  }
+  .text-button {
+    font-size: 14px;
+    float: right;
+    padding: 5px;
+  }
+  .list-title-containner {
+    font-size: 18px;
+  }
+  .content-in-card {
+    margin: 10px 0;
+  }
+}
